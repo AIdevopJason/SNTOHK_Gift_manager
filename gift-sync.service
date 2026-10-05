@@ -5,6 +5,7 @@ Wants=network-online.target
 
 [Service]
 Type=simple
+User=ubuntu
 WorkingDirectory=/opt/gift-system
 ExecStart=/usr/bin/python3 /opt/gift-system/gift_sync.py /opt/gift-system/config.json
 Restart=always

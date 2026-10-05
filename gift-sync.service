@@ -1,0 +1,14 @@
+[Unit]
+Description=SNTO gift inventory Lark Base sync
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/gift-system
+ExecStart=/usr/bin/python3 /opt/gift-system/gift_sync.py /opt/gift-system/config.json
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

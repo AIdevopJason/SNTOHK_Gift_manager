@@ -1,0 +1,12 @@
+{
+  "app_id": "cli_xxxxxxxxxxxxxxxx",
+  "app_secret": "部署时填入，切勿提交到任何仓库",
+  "app_token": "Base 链接里 base/ 后面那串",
+  "inv_table": "tblXXXXXXXX 库存表table_id",
+  "req_table": "tblYYYYYYYY 申领表table_id",
+  "webhook_url": "群自定义机器人的 Webhook 地址（群设置→群机器人→自定义机器人）",
+  "poll_interval_sec": 30,
+  "domain": "https://open.larksuite.com",
+  "base_link_prefix": "https://www.larksuite.com/base",
+  "field_names": {}
+}

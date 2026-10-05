@@ -1,0 +1,5 @@
+config.json
+_scratch_tokens.txt
+_test_config.json
+*.log
+__pycache__/
